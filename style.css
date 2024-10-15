@@ -13,7 +13,8 @@ header {
 .navbar {
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    /* gap: 50px; */
     align-items: center;
     padding: 10px;
 }
@@ -48,12 +49,18 @@ a:hover {
     height: 3996px;
 }
 
-.recherche {
+.cherche {
     background-color: #9C645A;
-    width: 200px;
-    height: 15px;
+    width: 300px;
+    height: 50px;
     border-radius: 30px;
     align-items: center;
+}
+.cherche::placeholder{
+    color: white;
+    padding-inline: 50px;
+    font-size: medium;
+
 }
 
 .entre {
@@ -66,8 +73,61 @@ a:hover {
     color: #E9E2D2;
     margin-left: -50px;
 }
-.titlelkbir{
+.titlelkbir{    
+    margin-left: -120px;
+    padding: 14px;
     display: flex;
+    gap: 20px;
+    /* justify-self: center; */
     justify-content: center;
     align-items: center;
+}
+.text{
+font-size: 48px;
+font-weight: 900;
+}
+.logo_color{
+margin: 20px;
+width: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 31px;
+    margin-left: 0px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+.image_container{
+   
+    margin-right: 120px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.image{
+    
+    width: 220px;
+    height: 220px;
+}
+#image1{
+    border-radius:236.5px;
+    width: 400px;
+}
+#image4{
+    border-radius:236.5px;
+    width: 400px;
+}
+
+.images_2{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
 }
