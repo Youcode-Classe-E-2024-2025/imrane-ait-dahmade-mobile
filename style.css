@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 
 header {
@@ -8,58 +9,65 @@ header {
     height: 133;
     margin: 0;
 }
+
 .navbar {
     margin: 0;
     display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
 .titre {
     color: #eae1d5;
     font-family: Andika;
     font-size: 40px;
 }
+
 a {
-    color:white;
+    color: white;
     font-size: 32px;
     font-family: Crimson Text;
     padding: 0px 25px;
     text-decoration: none;
-    border-radius:15px;
+    border-radius: 15px;
 }
-a:hover{
+
+a:hover {
     color: brown;
     background-color: azure;
 }
 
-.contact{
-    color:#736149;
+.contact {
+    color: #736149;
 }
-.brow{
-    background-color:#9C645A ;
-    width:709px;
-    height:3996px;
-    
 
+.brow {
+    background: linear-gradient(90deg, #9C645A 50%, #ffffff 50%);
+    width: 1440;
+    height: 3996px;
 }
-.recherche{
+
+.recherche {
     background-color: #9C645A;
     width: 200px;
     height: 15px;
-    border-radius: 30px; 
+    border-radius: 30px;
     align-items: center;
-    
 }
-.entre{
-    background-color: #9C645A;
+
+.entre {
+    background: #9C645A;
 }
-.nametitle{
-    margin:0px;
-    font-size:96px;
+
+.nametitle {
+    margin: 0px;
+    font-size: 96px;
     color: #E9E2D2;
-
-    
-
-    
+    margin-left: -50px;
+}
+.titlelkbir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
