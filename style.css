@@ -13,7 +13,7 @@ header {
 .navbar {
     margin: 0;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     /* gap: 50px; */
     align-items: center;
     padding: 10px;
@@ -56,7 +56,8 @@ a:hover {
     border-radius: 30px;
     align-items: center;
 }
-.cherche::placeholder{
+
+.cherche::placeholder {
     color: white;
     padding-inline: 50px;
     font-size: medium;
@@ -73,28 +74,33 @@ a:hover {
     color: #E9E2D2;
     margin-left: -50px;
 }
-.titlelkbir{    
-    margin-left: -120px;
+
+.titlelkbir {
+    margin-left: -90px;
     padding: 14px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     /* justify-self: center; */
     justify-content: center;
     align-items: center;
 }
-.text{
-font-size: 48px;
-font-weight: 900;
+
+.text {
+    font-size: 48px;
+    font-weight: 900;
 }
-.logo_color{
-margin: 20px;
-width: 80px;
+
+.logo_color {
+    margin: 20px;
+    width: 80px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
 }
-.description{
+
+.description {
     display: flex;
     flex-direction: column;
     color: white;
@@ -104,41 +110,79 @@ width: 80px;
     text-align: center;
     line-height: 1.5;
 }
-.image_container{
-   
+
+.image_container {
+
     margin-right: 120px;
     justify-items: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.image{
-    
+
+.image {
+
     width: 220px;
     height: 220px;
 }
-#image1{
-    border-radius:236.5px;
+
+#image1 {
+    border-radius: 236.5px;
     width: 400px;
 }
-#image4{
-    border-radius:236.5px;
+
+#image4 {
+    border-radius: 236.5px;
     width: 400px;
 }
-#image2{
+
+#image2 {
     width: 173px;
 }
-#image3{
+
+#image3 {
     width: auto;
     height: 179px;
 }
-.images_2{
+
+.images_2 {
     display: flex;
     gap: 30px;
     justify-content: space-between;
 }
-.add-icon{
+
+.add-icon {
     background: none;
-    border:none;
+    border: none;
 }
 
+.content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.icon2 {
+    /* margin-right: 260px; */
+    /* position: fixed;
+    align-self: flex-end;
+    justify-self: end; */
+    width: 156px;
+}
+
+.about-us {
+    align-self: center;
+    font-size: 70px;
+    font-family: Caveat;
+
+}
+
+.rectangle {
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 516px;
+    height: 11px;
+    border-radius: 20px;
+    background-color: #9F7D5E;
+
+}
