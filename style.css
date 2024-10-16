@@ -105,10 +105,11 @@ a:hover {
     flex-direction: column;
     color: white;
     font-size: 31px;
-    margin-left: -20px;
+    margin-left: 20px;
     justify-content: center;
     text-align: center;
     line-height: 1.5;
+    
 }
 
 .image_container {
@@ -173,12 +174,13 @@ a:hover {
 .about-us {
     align-self: center;
     font-size: 70px;
-    font-family: Caveat;
-
 }
-
+.contact-us{
+    font-size: 70px;
+    margin-left: 300px;
+}
 .rectangle {
-    margin-left: 700px;
+    margin-left: 1200px;
     margin-top: 10px;
     width: 516px;
     height: 11px;
@@ -186,3 +188,89 @@ a:hover {
     background-color: #9F7D5E;
 
 }
+.rectangle1{
+    margin-left: 120px; 
+    margin-top: 15px;
+    width: 516px;
+    height: 11px;
+    border-radius: 20px;
+    background-color: #9F7D5E;
+
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-right: 25pc;
+    margin-right: 25px;
+    line-height: 2.5;
+    margin-top: 50px
+}
+
+.about {
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.textxiaomi {
+    font-size: 32px;
+    color: #E9AD82;
+    text-align: center;
+    line-height: 1.5;
+    text-align: start;
+   
+}
+
+.image-2-about {
+    margin-top: -200px;
+    margin-right: 120px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.image-2-about-center {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-6 {
+    width: 235px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+.image-8 {
+    width: 235px;
+    height: 235px;
+    margin-left: 200px;
+}
+.contact-fich{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-contact{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.localimage{
+    width: 626px;
+    height: 537px;
+    border-radius: 236px;
+}
+.local{
+    font-size: 40px;
+    display: flex;
+    align-items: center;  
+}
+
+
