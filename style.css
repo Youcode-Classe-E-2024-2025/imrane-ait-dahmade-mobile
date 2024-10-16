@@ -256,10 +256,13 @@ a:hover {
 .contact-fich{
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 .menu-contact{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    
     
 }
 .localimage{
@@ -272,5 +275,8 @@ a:hover {
     display: flex;
     align-items: center;  
 }
-
+.icon-xiaomi{
+    justify-self: center;
+    width: 168px;
+}
 
