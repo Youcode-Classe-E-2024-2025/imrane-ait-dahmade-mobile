@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 /* *{
     border: 1px solid black;
 } */
 body {
     margin: 0;
     background: linear-gradient(90deg, #9C645A 50%, #ffffff 50%);
-    
+
 }
 
 nav {
@@ -15,9 +16,11 @@ nav {
     margin: 0;
     border-radius: 10px;
 }
-main{
-   padding-top: 133px;
+
+main {
+    padding-top: 133px;
 }
+
 .navbar {
     background-color: black;
     margin: 0;
@@ -25,7 +28,7 @@ main{
     justify-content: space-evenly;
     /* gap: 50px; */
     align-items: center;
-    position :fixed;
+    position: fixed;
     padding: 0;
     width: 100%;
 }
@@ -65,6 +68,7 @@ a:hover {
     height: 50px;
     border-radius: 30px;
     align-items: center;
+    
 }
 
 .cherche::placeholder {
@@ -76,6 +80,22 @@ a:hover {
 
 .entre {
     background: #9C645A;
+    border-radius: 10px;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.test-input{
+    outline: none;
+    border: none;
+    background-color: transparent !important;
+    color: black;
+}
+
+.test-input::placeholder{
+    color: black;
 }
 
 .nametitle {
@@ -83,7 +103,7 @@ a:hover {
     font-size: 96px;
     color: #E9E2D2;
     margin-left: -50px;
-     font-family: "Changa", sans-serif;
+    font-family: "Changa", sans-serif;
 }
 
 .titlelkbir {
@@ -176,6 +196,7 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    padding-top: 60px;
 }
 
 .icon2 {
@@ -311,12 +332,14 @@ a:hover {
     justify-content: space-between;
     gap: 50px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
-   
+
 }
-.cercle{
+
+.cercle {
     width: 80rem;
     height: 40rem;
     background-color: #000000;
@@ -324,9 +347,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.imrane{
+
+.imrane {
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -334,7 +358,7 @@ footer{
     font-family: "IBM Plex Mono", monospace;
 }
 
-.text-footer{
+.text-footer {
     display: flex;
     flex-direction: column;
     gap: 50px;
