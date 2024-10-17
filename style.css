@@ -1,28 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* *{
+    border: 1px solid black;
+} */
 body {
     margin: 0;
-
+    background: linear-gradient(90deg, #9C645A 50%, #ffffff 50%);
+    
 }
 
-header {
+nav {
     background-color: black;
     width: 1440;
     height: 133;
     margin: 0;
+    border-radius: 10px;
 }
-
+main{
+   padding-top: 133px;
+}
 .navbar {
+    background-color: black;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
     /* gap: 50px; */
     align-items: center;
-    padding: 10px;
+    position :fixed;
+    padding: 0;
+    width: 100%;
 }
 
 .titre {
     color: #eae1d5;
-    font-family: Andika;
-    font-size: 40px;
+    font-family: "Andika", sans-serif;
+    font-size: 48px;
 }
 
 a {
@@ -45,8 +56,7 @@ a:hover {
 
 .brow {
     background: linear-gradient(90deg, #9C645A 50%, #ffffff 50%);
-    width: 1440;
-    height: 3996px;
+    height: 3700px;
 }
 
 .cherche {
@@ -73,10 +83,11 @@ a:hover {
     font-size: 96px;
     color: #E9E2D2;
     margin-left: -50px;
+     font-family: "Changa", sans-serif;
 }
 
 .titlelkbir {
-    margin-left: -90px;
+    margin-left: -0px;
     padding: 14px;
     display: flex;
     gap: 30px;
@@ -86,12 +97,14 @@ a:hover {
 }
 
 .text {
-    font-size: 48px;
+    font-size: 96px;
     font-weight: 900;
+    font-family: Caveat Brush;
+    color: #74634B;
 }
 
 .logo_color {
-    margin: 20px;
+    margin: 10px;
     width: 80px;
 }
 
@@ -109,7 +122,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     line-height: 1.5;
-    
+
 }
 
 .image_container {
@@ -129,12 +142,13 @@ a:hover {
 
 #image1 {
     border-radius: 236.5px;
-    width: 400px;
+    width: 572px;
+    height: 272px;
 }
 
 #image4 {
     border-radius: 236.5px;
-    width: 400px;
+    width: 478px;
 }
 
 #image2 {
@@ -142,8 +156,9 @@ a:hover {
 }
 
 #image3 {
-    width: auto;
+    width: 371.5px;
     height: 179px;
+
 }
 
 .images_2 {
@@ -174,11 +189,15 @@ a:hover {
 .about-us {
     align-self: center;
     font-size: 70px;
+    font-family: Caveat;
 }
-.contact-us{
+
+.contact-us {
     font-size: 70px;
     margin-left: 300px;
+    font-family: Caveat;
 }
+
 .rectangle {
     margin-left: 1200px;
     margin-top: 10px;
@@ -188,8 +207,9 @@ a:hover {
     background-color: #9F7D5E;
 
 }
-.rectangle1{
-    margin-left: 120px; 
+
+.rectangle1 {
+    margin-left: 120px;
     margin-top: 15px;
     width: 516px;
     height: 11px;
@@ -220,10 +240,10 @@ a:hover {
 .textxiaomi {
     font-size: 32px;
     color: #E9AD82;
-    text-align: center;
+    /* text-align: center;
     line-height: 1.5;
-    text-align: start;
-   
+    text-align: start; */
+
 }
 
 .image-2-about {
@@ -253,31 +273,69 @@ a:hover {
     height: 235px;
     margin-left: 200px;
 }
-.contact-fich{
+
+.contact-fich {
     height: 700px;
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
 }
-.menu-contact{
+
+.menu-contact {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
-    
-    
+
+
 }
-.localimage{
+
+.localimage {
     width: 626px;
     height: 537px;
-    border-radius: 236px;
+    border-radius: 20px;
 }
-.local{
+
+.local {
     font-size: 40px;
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
-.icon-xiaomi{
+
+.icon-xiaomi {
     justify-self: center;
     width: 168px;
 }
 
+.images_2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+   
+}
+.cercle{
+    width: 80rem;
+    height: 40rem;
+    background-color: #000000;
+    border-radius: 40rem 40rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imrane{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

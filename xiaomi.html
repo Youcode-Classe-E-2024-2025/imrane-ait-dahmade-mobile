@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xiaomi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <header>
-            <div class="navbar">
-                <h1 class="titre">Xiaomi 14T pro</h1>
+    <nav>
+        <div class="navbar">
+            <h1 class="titre">Xiaomi 14T pro</h1>
 
-                <input class="cherche" placeholder="rechecher" type="search" class="entre">
+            <input class="cherche" placeholder="rechecher" type="search" class="entre">
 
 
-                <div class="linkin">
-                    <a href="#">Caractéristiques</a>
-                    <a href="#">about us</a>
-                    <a href="#" class="contact">contact</a>
-                </div>
+            <div class="linkin">
+                <a href="#caracteristiques">Caractéristiques</a>
+                <a href="#about-section">about us</a>
+                <a href="#contact-section" class="contact">contact</a>
             </div>
-        </header>
+        </div>
+    </nav>
+    <main>
+  
 
         <div class="brow">
             <div class="titlelkbir">
@@ -33,7 +39,7 @@
             </div>
             <div class="container">
 
-                <div class="description">
+                <div class="description" id="caracteristiques">
                     <h1 style="color: #E9E2D2;">Caractéristiques</h1>
                     <span>Stokage :256GB</span>
                     <span>RAM:16GB</span>
@@ -52,7 +58,7 @@
                 <div class="image_container">
                     <img src="images/image1.jpg" alt="" class="image" id="image1">
                     <div class="images_2">
-                        <img src="images/images.jfif" alt="" class="image" id="image2">
+                        <img src="images/image camera.jfif" alt="" class="image" id="image2">
                         <img src="images/image 2.jpg" alt="" class="image" id="image3">
                     </div>
                     <img src="images/image 4.jpg" alt="" class="image" id="image4">
@@ -60,7 +66,7 @@
             </div>
             <div class="content2">
                 <img src="icons/logo of xiaomi.png" alt="" class="icon2">
-                <span class="about-us">about as</span>
+                <span class="about-us" id="about-section">about us</span>
             </div>
             <div class="rectangle"></div>
             <div class="about">
@@ -84,7 +90,7 @@
             </div>
             <div class="rectangle"></div>
             <div class="rectangle1"></div>
-            <span class="contact-us">contact</span>
+            <span class="contact-us" id="contact-section">contact</span>
             <div class="contact-fich">
                 <div class="menu-contact">
                     <div class="local">
@@ -99,17 +105,22 @@
                         <img src="icons/icons8-email-90.png" alt="">
                         <span>xiaomimarocgmail.com</span>
                     </div>
-                 <img class="icon-xiaomi" src="icons/icons8-xiaomi-90.png" alt="">
+                    <img class="icon-xiaomi" src="icons/icons8-xiaomi-90.png" alt="">
                 </div>
-<img  class="localimage" src="images/localisation of xiamo.png" alt="">
+                <!-- <img  src="images/localisation of xiamo.png" alt=""> -->
+                <iframe  class="localimage" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25348.91357415456!2d-9.257692487307665!3d32.296307214204845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac217c9020cc41%3A0xf623fa0c253a2102!2sMi%20store%20safi!5e0!3m2!1sen!2sma!4v1729173658974!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <footer>
-            <span class="cercle"></span>
 
-        </footer>
     </main>
-
+    <footer>
+        <div class="cercle">
+            <div class="text-footer">
+                <img src="images/logo-white.png" alt="">
+                <span class="imrane">Powered by Imran ait Dahmade </span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
