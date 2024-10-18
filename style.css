@@ -2,6 +2,7 @@
 
 /* *{
     border: 1px solid black;
+   
 } */
 body {
     margin: 0;
@@ -136,6 +137,7 @@ a:hover {
 .container {
     display: flex;
     justify-content: space-between;
+    gap: 200px;
 }
 
 .description {
@@ -226,7 +228,7 @@ a:hover {
 }
 
 .rectangle {
-    margin-left: 1200px;
+    margin-left: 870px;
     margin-top: 10px;
     width: 516px;
     height: 11px;
@@ -257,11 +259,11 @@ a:hover {
 }
 
 .about {
-    height: 1200px;
+    height: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: -50px;
+    margin-top: 100px;
 }
 
 .textxiaomi {
@@ -275,7 +277,7 @@ a:hover {
 
 .image-2-about {
     margin-top: -200px;
-    margin-right: 120px;
+  
     justify-items: center;
     display: flex;
     flex-direction: column;
